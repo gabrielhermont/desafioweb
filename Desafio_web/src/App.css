@@ -1,0 +1,11 @@
+body{
+    background-image: linear-gradient(135deg, #4ce2f1 0, #32daec 50%, #00d2e7 100%);
+}
+.centro_login{
+    border: solid black;
+    padding: 350px;
+    justify-content: center;
+    margin-left: 460px;
+    margin-right: 460px;
+    margin-top: 200px;
+}
