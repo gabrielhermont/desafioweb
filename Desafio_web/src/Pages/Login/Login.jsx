@@ -1,5 +1,4 @@
 import {
-  Aviao,
   Cadastro,
   Centro_Login,
   Container,
@@ -7,12 +6,13 @@ import {
   Senha,
   Usuario,
 } from "./Styles";
+import { Aviao } from "../../Assets/index";
 
 export default function Login() {
   return (
     <Container>
       <Centro_Login>
-        <Aviao src="assets/avião.png" alt="avião" />
+        <img src={Aviao} alt="avião" />
         <div>
           <Usuario>Usuário</Usuario>
           <input></input>

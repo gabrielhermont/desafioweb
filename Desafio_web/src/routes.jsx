@@ -6,7 +6,7 @@ import {
   Outlet,
   Navigate,
 } from "react-router-dom";
-import AppLayout from "./AppLayout/AppLayout";
+import { AppLayout } from "./layouts";
 import { Login, Home, Cadastro } from "./Pages";
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +15,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="login" element={<Login />} />
       <Route path="cadastro" element={<Cadastro />} />
+      <Route />
     </Route>
   )
 );

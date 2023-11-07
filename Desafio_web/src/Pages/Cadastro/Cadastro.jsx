@@ -1,5 +1,6 @@
 import {
   GradienteImg,
+  Cabeçalho,
   Container,
   Centro_cadastro,
   Nome,
@@ -14,12 +15,14 @@ import {
   Input_email,
   Input_senha,
   Input_confirmar,
+  BotaoCadastro,
 } from "./Styles";
 
 export default function Cadastro() {
   return (
     <Container>
       <Centro_cadastro>
+        <Cabeçalho>CADASTRO</Cabeçalho>
         <Nome>
           Nome
           <Input_nome></Input_nome>
@@ -44,6 +47,7 @@ export default function Cadastro() {
           Confirmar senha
           <Input_confirmar></Input_confirmar>
         </Confirmar_senha>
+        <BotaoCadastro>Confirmar Cadastro</BotaoCadastro>
       </Centro_cadastro>
     </Container>
   );

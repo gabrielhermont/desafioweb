@@ -8,6 +8,7 @@ export const Container = styled.div`
   justify-content: center;
   height: 100vh;
   width: 100%;
+  background-size: cover;
 `;
 
 export const Centro_Login = styled.div`
@@ -43,13 +44,10 @@ export const Entrar = styled.button`
   width: 80px;
   font-weight: bold;
   font-size: 20px;
-  :hover {
+  &:hover {
     cursor: pointer;
-    color: lightblue;
-    background-color: black;
   }
 `;
-
 
 export const Cadastro = styled.button`
   border-radius: 15px;
