@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import { Outlet, useLocation } from "react-router-dom";
 
-import { Container } from "./Styles";
+import { Container } from "../Styles";
 
 export default function AppLayout() {
   const { pathname } = useLocation();

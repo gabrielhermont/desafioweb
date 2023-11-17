@@ -57,3 +57,5 @@ export const Cadastro = styled.button`
   font-weight: bold;
   font-size: 15px;
 `;
+
+export const Form = styled.form``;
